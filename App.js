@@ -33,8 +33,6 @@ function AppWrapper() {
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
-      {" "}
-      {/* Wrap the entire app */}
       <ThemeProvider>
         <MainApp />
       </ThemeProvider>
